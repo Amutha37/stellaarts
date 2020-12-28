@@ -81,9 +81,9 @@ h2 {
 
 /* ipad */
 @media (min-width: 0px) and (max-width: 768px) {
-  body {
+  /* body {
     background-color: rgb(165, 78, 187);
-  }
+  } */
 
   .boxx {
     width: 15rem;
@@ -96,9 +96,9 @@ h2 {
 }
 /* iphone 7 plus  */
 @media (min-width: 0px) and (max-width: 414px) {
-  body {
+  /* body {
     background-color: rgb(154, 177, 207);
-  }
+  } */
 
   .boxx p {
     position: relative;
@@ -109,9 +109,9 @@ h2 {
 }
 
 @media (min-width: 0px) and (max-width: 411px) {
-  body {
+  /* body {
     background-color: rgb(54, 100, 161);
-  }
+  } */
 
   /* image selling  */
 
@@ -155,9 +155,9 @@ h2 {
   }
 } */
 @media (min-width: 0px) and (max-width: 375px) {
-  body {
+  /* body {
     background-color: rgb(69, 77, 13);
-  }
+  } */
 
   h2 {
     font-size: 1.9rem;
@@ -200,9 +200,9 @@ h2 {
 }
 /* take over  */
 @media (min-width: 0) and (max-width: 1440px) {
-  body {
+  /* body {
     background-color: rgb(15, 148, 77);
-  }
+  } */
   #banner .logo img {
     width: 40%;
     height: 9rem;
@@ -244,9 +244,9 @@ h2 {
   }
 }
 @media (min-width: 0px) and (max-width: 1024px) {
-  body {
+  /* body {
     background-color: rgb(202, 159, 39);
-  }
+  } */
   /* nav {
     width: 100%;
   } */
@@ -308,9 +308,9 @@ h2 {
 }
 /* 924px */
 @media (min-width: 0px) and (max-width: 920px) {
-  body {
+  /* body {
     background-color: rgb(151, 129, 132);
-  }
+  } */
   #banner img {
     width: 80%rem;
     height: 11rem;
@@ -334,9 +334,9 @@ h2 {
 }
 /* ipad */
 @media (min-width: 0px) and (max-width: 768px) {
-  body {
+  /* body {
     background-color: pink;
-  }
+  } */
   nav {
     /* width: %; */
     height: 4rem;
@@ -378,9 +378,9 @@ h2 {
   } */
 
 @media (min-width: 0px) and (max-width: 540px) {
-  body {
+  /* body {
     background-color: rgb(58, 41, 63);
-  }
+  } */
 
   nav {
     height: 4rem;
@@ -434,9 +434,9 @@ h2 {
 }
 /* iphone 7 plus  */
 @media (min-width: 0px) and (max-width: 414px) {
-  body {
+  /* body {
     background-color: rgb(54, 100, 161);
-  }
+  } */
   /* nav {
     width: 110%;
   } */
@@ -494,9 +494,9 @@ h2 {
 
 /*iphone 7/6/8 */
 @media (min-width: 0px) and (max-width: 375px) {
-  body {
+  /* body {
     background-color: rgb(69, 77, 13);
-  }
+  } */
   /* nav {
     width: 5%;
   } */
@@ -551,9 +551,9 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 320px) {
-  body {
+  /* body {
     background-color: rgb(127, 131, 99);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }
@@ -567,9 +567,9 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 280px) {
-  body {
+  /* body {
     background-color: rgb(214, 240, 22);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }

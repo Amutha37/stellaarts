@@ -39,35 +39,30 @@ body {
 
   background-color: rgb(246, 242, 242);
 }
-#banner .logo img {
-  width: 40%;
-  height: 12rem;
-}
-#banner img {
-  width: 80%rem;
-  height: 11rem;
-}
-#banner p {
-  font-size: 1.6rem;
-  text-align: center;
-  margin-left: 11rem;
-  width: 80%;
-  margin-bottom: 6rem;
-}
 h2 {
   font-family: "IM Fell English", serif;
 }
 .container1 p {
-  /* width: 90%; */
-  font-size: 1.4rem;
-  margin-left: 9rem 2rem;
-  font-family: "IM Fell English", Helvetica, serif;
+  font-size: 1.4em;
+  margin-left: 2rem;
+  font-family: "Courier New", Arial, Courier, monospace "IM Fell English",
+    Helvetica, sans-serif "IM Fell English", serif;
+  /* font-family: Calibri, "Courier New", sans-serif; */
+  /* font-family: "Arial"; */
+  /* font-family: "Tangerine"; */
   /* float: left; */
-  /* justify-items: center;
-  justify-content: center; */
 }
+/* #banner .logo img {
+  width: 40%;
+  height: 3rem;
+} */
+#banner img {
+  width: 75%;
+  height: 21em;
+}
+
 .container1 img {
-  width: 35%;
+  width: 30%;
   height: auto;
   margin-left: 27rem;
   /* float: left; */
@@ -87,7 +82,7 @@ h2 {
   }
   #banner img {
     width: 40%;
-    height: 0.2rem;
+    height: 8rem;
   }
 }
 @media (max-width: 500px) {
@@ -109,6 +104,9 @@ h2 {
     margin: 0 auto;
   }
 }
+h2 {
+  margin-top: 8rem;
+}
 @media (min-width: 0px) and (max-width: 375px) {
   .container1 p {
     font-size: 1.8rem;
@@ -125,9 +123,9 @@ footer {
 }
 /*  take over */
 @media (min-width: 0) and (max-width: 1440px) {
-  body {
+  /* body {
     background-color: rgb(15, 148, 77);
-  }
+  } */
   #banner .logo img {
     width: 40%;
     height: 9rem;
@@ -222,6 +220,7 @@ footer {
     text-align: center;
     margin-left: 8rem;
     width: 72%;
+    /* margin-bottom: 4rem; */
   }
   h2 {
     font-size: 2rem;

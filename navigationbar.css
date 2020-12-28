@@ -185,8 +185,8 @@ input[type="checkbox"] {
 footer .socialNet img {
   /* height: 9rem; */
 
-  width: 4rem;
-  height: 4rem;
+  width: 2rem;
+  height: 2rem;
   /* padding: 0.5rem; */
   margin-left: 1.5rem;
   position: relative;
@@ -207,9 +207,9 @@ footer .socialNet img {
 
 } */
 @media (min-width: 1025px) and (max-width: 1440px) {
-  body {
+  /* body {
     background-color: rgb(35, 192, 192);
-  }
+  } */
   nav {
     width: 100%;
   }
@@ -235,9 +235,9 @@ footer .socialNet img {
 
 /* ipad */
 @media (min-width: 0px) and (max-width: 768px) {
-  body {
+  /* body {
     background-color: rgb(165, 78, 187);
-  }
+  } */
   .socialNet img {
     left: 0.5rem;
   }
@@ -271,9 +271,9 @@ footer .socialNet img {
 }
 /* iphone 7 plus  */
 @media (min-width: 0px) and (max-width: 414px) {
-  body {
+  /* body {
     background-color: rgb(54, 100, 161);
-  }
+  } */
 
   /* image selling  */
   #banner .logo img {
@@ -304,9 +304,9 @@ footer .socialNet img {
 }
 
 @media (min-width: 0px) and (max-width: 411px) {
-  body {
+  /* body {
     background-color: rgb(54, 100, 161);
-  }
+  } */
 
   /* image selling  */
 
@@ -331,9 +331,9 @@ footer .socialNet img {
 /*iphone 7/6/8 */
 /* @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) { */
 @media screen and (max-width: 410px) and (min-width: 375px) {
-  body {
+  /* body {
     background-color: rgb(69, 77, 13);
-  }
+  } */
   h2 {
     font-size: 1.5rem;
   }
@@ -357,9 +357,9 @@ footer .socialNet img {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 320px) {
-  body {
+  /* body {
     background-color: rgb(127, 131, 99);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }

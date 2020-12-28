@@ -1,6 +1,6 @@
 /* Banner  heading image and quote*/
 /* latin */
-/* @font-face {
+@font-face {
   font-family: "IM Fell English";
   font-style: italic;
   font-weight: 400;
@@ -10,9 +10,9 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
-} */
+}
 /* latin */
-/* @font-face {
+@font-face {
   font-family: "IM Fell English";
   font-style: normal;
   font-weight: 400;
@@ -22,9 +22,9 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
-} */
+}
 /* latin */
-/* @font-face {
+@font-face {
   font-family: "Tangerine";
   font-style: normal;
   font-weight: 400;
@@ -33,112 +33,13 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
-} */
+}
 body {
   /* background-color: rgb(208, 211, 190); */
   display: flexbox;
   background-color: rgb(246, 242, 242);
 }
-/* sample 1 grad */
-/* #banner {
-  font-family: "IM Fell English", sans-serif;
-  position: relative;
-  background-size: cover;
-  text-align: center;
-  
-  width: 100%;
-  font-style: italic;
-} */
 
-/* large screen apple mac */
-/* #banner img {
-  background-size: cover;
-  width: 80%;
-  height: 15rem;
-}
-
-#banner:before {
-  position: relative;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-}
-
-#banner * {
-  position: relative;
-}
-
-#banner p {
-  font-family: "IM Fell English", sans-serif;
-  color: #000;
-
-  font-size: 1.3rem;
-  font-weight: 700;
-  width: 100%;
-} */
-
-/* artist note  */
-/* .introduction {
-  padding: 0 10%;
-  margin-bottom: 0.75rem;
-  text-align: center;
-  font-size: 1.375rem;
-  line-height: 1.4;
-  font-family: "IM Fell English" serif;
-  font-style: italic;
-  font-weight: 500;
-  color: #000;
-} */
-/* .introduction {
-  background-color: rgb(107, 44, 44);
-} */
-
-/* .banner .container {
- 
-  margin-top: 4rem;
-  width: 100%;
-
-  text-align: center;
-  justify-content: center;
-  font-family: "Tangerine", serif, Tahoma, Verdana, sans-serif;
- 
-} */
-
-/* h2 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-family: "IM Fell English", serif;
-} */
-
-/* .highWords {
-  font-style: italic;
-  font-weight: bold;
-} */
-/* body {
-  margin: 0 0;
-  padding: 0; */
-/* background-color: rgb(240, 240, 240); */
-/* font-family: "Libre Baskerville", sans-serif; */
-/* } */
-/* .subHeading {
-  margin-top: 4rem;
-  position: relative;
-  text-align: center;
-  margin: 6rem 2rem;
-  font-family: Arial, Helvetica, sans-serif "Times New Roman", serif serif;
-}
-.subHeading p {
-  text-justify: center;
-  width: 100%;
-  font-size: 1.3rem;
-  line-height: 1.4;
-  font-family: "IM Fell English" serif;
-
-
-  color: #000;
-} */
 /* new set  */
 .container1 {
   /* background-color: dodgerblue; */
@@ -153,8 +54,8 @@ body {
 .boxx {
   max-width: 100%;
   max-height: 100%;
-  width: 25rem;
-  background-color: rgb(228, 223, 223);
+  width: 30rem;
+  /* background-color: rgb(228, 223, 223); */
 
   padding: 1rem;
 }
@@ -173,104 +74,61 @@ body {
 }
 #banner img {
   width: 80%rem;
-  height: 11rem;
+  height: 15rem;
 }
 #banner p {
   font-size: 1.6rem;
   text-align: center;
   margin-left: 11rem;
   width: 80%;
-  margin-bottom: 6rem;
+  margin-left: 10rem;
 }
 h2 {
   font-family: "IM Fell English", serif;
 }
-/* media querry test  */
-/* larger screen  */
-/* @media (min-width: 1441px) and (max-width: 2560px) {
-  body {
-    background-color: yellow;
-  } */
-
-/* #banner img {
-    width: 80%;
-    height: 16rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-
-  .subHeading p {
-    font-family: Arial, Verdana, Geneva, Tahoma, "sans-serif", Helvetica,
-      sans-serif, serif, "sans-serif ";
-    font-size: 1.2rem;
-  } */
-/* } */
-/* ipad */
-@media (min-width: 0px) and (max-width: 768px) {
-  body {
-    background-color: pink;
-  }
-  /* nav {
-    height: 5rem;
-  }
-  #banner p {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-left: 4rem;
-    width: 80%;
-  } */
+.subHeading p {
+  font-style: italic;
+  font-size: 1.3rem;
+  width: 80%;
+  margin-left: 12rem;
 }
+.boxx p {
+  position: relative;
+  /* top: 74rem; */
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+div .contactMsg p {
+  font-size: 1.3rem;
+  font-family: serif;
+  font-weight: bold;
+}
+/* ipad */
+/* @media (min-width: 0px) and (max-width: 768px) {
+
+} */
 /* iphone 7 plus  */
 @media (min-width: 0px) and (max-width: 414px) {
-  body {
-    background-color: rgb(54, 100, 161);
-  }
-
-  /* image selling  */
-  /* #banner .logo img {
-    width: 11rem;
-    height: 6rem;
-  }
-  #banner p {
-    font-size: 1.3rem;
-    text-align: center;
-    margin-left: 1.9rem;
-  } */
   .container1 .boxx {
     padding: 0.9rem 1.5rem;
   }
 
   .boxx p {
+    font-size: 1rem;
     position: relative;
     left: 2rem;
     font-family: serif;
   }
-  /* h2 {
-    font-size: 1.4rem;
-  }
-  .subHeading p {
-    font-family: "Times New Roman", Arial, serif, "sans-serif ";
-    font-size: 1.2rem;
-  } */
 }
 
 @media (min-width: 0px) and (max-width: 411px) {
-  body {
-    background-color: rgb(54, 100, 161);
-  }
-
-  /* image selling  */
-
   .container1 .boxx {
-    border: 18px solid rgb(156, 108, 53);
-
     padding: 0.9rem 1.5rem;
   }
 
   .boxx p {
     position: relative;
-    left: 3.4rem;
+    left: 3rem;
     font-family: serif;
   }
   /* h2 {
@@ -284,9 +142,9 @@ h2 {
 
 /*iphone 7/6/8 */
 @media (min-width: 0px) and (max-width: 375px) {
-  body {
+  /* body {
     background-color: rgb(69, 77, 13);
-  }
+  } */
   /* h2 {
     font-size: 1.5rem;
   }
@@ -308,16 +166,16 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 320px) {
-  body {
+  /* body {
     background-color: rgb(127, 131, 99);
-  }
+  } */
   /* h2 {
     font-size: 1.4rem;
   } */
 
   .boxx p {
     position: absolute;
-    /* top: 74rem; */
+
     font-size: 1rem;
     font-weight: 500;
   }
@@ -330,9 +188,9 @@ h2 {
 
 /* take over */
 @media (min-width: 0) and (max-width: 1440px) {
-  body {
+  /* body {
     background-color: rgb(15, 148, 77);
-  }
+  } */
   #banner .logo img {
     width: 40%;
     height: 9rem;
@@ -372,11 +230,17 @@ h2 {
     font-weight: 500;
     margin: rem;
   }
+  .boxx p {
+    position: absolute;
+
+    font-size: 1rem;
+    font-weight: 500;
+  }
 }
 @media (min-width: 0px) and (max-width: 1024px) {
-  body {
+  /* body {
     background-color: rgb(202, 159, 39);
-  }
+  } */
   /* nav {
     width: 100%;
   } */
@@ -421,6 +285,18 @@ h2 {
   .boxx {
     width: 25rem;
   }
+  /* .boxx p {
+    position: absolute;
+
+    font-size: 1rem;
+    font-weight: 500;
+  } */
+  .boxx p {
+    /* position: relative; */
+    /* top: 74rem; */
+    font-size: 1rem;
+    /* font-weight: 500; */
+  }
   footer p {
     font-size: 2rem;
   }
@@ -438,9 +314,9 @@ h2 {
 }
 /* 924px */
 @media (min-width: 0px) and (max-width: 920px) {
-  body {
+  /* body {
     background-color: rgb(151, 129, 132);
-  }
+  } */
   #banner img {
     width: 80%rem;
     height: 11rem;
@@ -464,9 +340,9 @@ h2 {
 }
 /* ipad */
 @media (min-width: 0px) and (max-width: 768px) {
-  body {
+  /* body {
     background-color: pink;
-  }
+  } */
   nav {
     /* width: %; */
     height: 4rem;
@@ -508,9 +384,9 @@ h2 {
   } */
 
 @media (min-width: 0px) and (max-width: 540px) {
-  body {
+  /* body {
     background-color: rgb(58, 41, 63);
-  }
+  } */
 
   nav {
     height: 4rem;
@@ -564,9 +440,9 @@ h2 {
 }
 /* iphone 7 plus  */
 @media (min-width: 0px) and (max-width: 414px) {
-  body {
+  /* body {
     background-color: rgb(54, 100, 161);
-  }
+  } */
   /* nav {
     width: 110%;
   } */
@@ -624,9 +500,9 @@ h2 {
 
 /*iphone 7/6/8 */
 @media (min-width: 0px) and (max-width: 375px) {
-  body {
+  /* body {
     background-color: rgb(69, 77, 13);
-  }
+  } */
   /* nav {
     width: 5%;
   } */
@@ -681,9 +557,9 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 320px) {
-  body {
+  /* body {
     background-color: rgb(127, 131, 99);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }
@@ -697,9 +573,9 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 280px) {
-  body {
+  /* body {
     background-color: rgb(214, 240, 22);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }

@@ -41,12 +41,12 @@ body {
   background-color: rgb(246, 242, 242);
 }
 
-.introduction {
+/* .introduction {
   background-color: rgb(107, 44, 44);
 }
 
 .introduction p {
-  /* margin-bottom: 2.4375rem; */
+  
 
   line-height: 1;
   font-size: 1rem;
@@ -54,12 +54,10 @@ body {
   position: relative;
   line-height: 1.5;
   top: 2rem;
-  /* bottom: 8rem; */
+ 
   font-family: Helvetica, Arial, sans-serif "IM Fell English", serif;
-  /* padding: 5px; */
-
-  /* text-shadow: 4px 4px 4px rgb(234, 234, 17); */
-}
+  
+} */
 
 .highWords {
   font-style: italic;
@@ -82,7 +80,7 @@ body {
 }
 #banner img {
   width: 80%rem;
-  height: 11rem;
+  height: 21rem;
 }
 #banner p {
   font-size: 1.6rem;
@@ -90,6 +88,15 @@ body {
   margin-left: 11rem;
   width: 80%;
   margin-bottom: 6rem;
+}
+div .stellaoutdoor {
+  margin: 0 auto;
+}
+.stellaoutdoor img {
+  width: 20%;
+  height: auto;
+  margin-left: 52rem;
+  /* margin: 0 auto; */
 }
 h2 {
   font-family: "IM Fell English", serif;
@@ -99,6 +106,7 @@ h2 {
   max-width: 100%;
   max-height: 100%;
   width: 30rem;
+  /* heigh: 20rem; */
   /* background-color: rgb(228, 223, 223); */
 
   padding: 1rem;
@@ -141,19 +149,19 @@ h2 {
   }
 } */
 @media (min-width: 0) and (max-width: 1440px) {
-  body {
+  /* body {
     background-color: rgb(15, 148, 77);
-  }
+  } */
   #banner .logo img {
     width: 40%;
     height: 9rem;
   }
   #banner img {
     width: 80%rem;
-    height: 13rem;
+    height: 1rem;
   }
   #banner p {
-    font-size: 1.36nter;
+    font-size: 1.36rem;
     margin-left: 13rem;
     width: 70%;
   }
@@ -185,9 +193,9 @@ h2 {
   }
 }
 @media (min-width: 0px) and (max-width: 1024px) {
-  body {
+  /* body {
     background-color: rgb(202, 159, 39);
-  }
+  } */
   /* nav {
     width: 100%;
   } */
@@ -249,9 +257,9 @@ h2 {
 }
 /* 924px */
 @media (min-width: 0px) and (max-width: 920px) {
-  body {
+  /* body {
     background-color: rgb(151, 129, 132);
-  }
+  } */
   #banner img {
     width: 80%rem;
     height: 11rem;
@@ -275,9 +283,9 @@ h2 {
 }
 /* ipad */
 @media (min-width: 0px) and (max-width: 768px) {
-  body {
+  /* body {
     background-color: pink;
-  }
+  } */
   nav {
     /* width: %; */
     height: 4rem;
@@ -319,9 +327,9 @@ h2 {
   } */
 
 @media (min-width: 0px) and (max-width: 540px) {
-  body {
+  /* body {
     background-color: rgb(58, 41, 63);
-  }
+  } */
 
   nav {
     height: 4rem;
@@ -368,16 +376,16 @@ h2 {
     font-size: 1rem;
   }
   footer img {
-    width: 5rem;
-    height: 5rem;
-    padding: 0.5rem 1rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem 1rem;
   }
 }
 /* iphone 7 plus  */
 @media (min-width: 0px) and (max-width: 414px) {
-  body {
+  /* body {
     background-color: rgb(54, 100, 161);
-  }
+  } */
   /* nav {
     width: 110%;
   } */
@@ -435,9 +443,9 @@ h2 {
 
 /*iphone 7/6/8 */
 @media (min-width: 0px) and (max-width: 375px) {
-  body {
+  /* body {
     background-color: rgb(69, 77, 13);
-  }
+  } */
   /* nav {
     width: 5%;
   } */
@@ -492,9 +500,9 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 320px) {
-  body {
+  /* body {
     background-color: rgb(127, 131, 99);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }
@@ -508,9 +516,9 @@ h2 {
 }
 /*iphone 5*/
 @media (min-width: 0px) and (max-width: 280px) {
-  body {
+  /* body {
     background-color: rgb(214, 240, 22);
-  }
+  } */
   h2 {
     font-size: 1.4rem;
   }
