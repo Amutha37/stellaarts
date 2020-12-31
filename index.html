@@ -1,231 +1,258 @@
 <!DOCTYPE html>
-<html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
   <head>
-    <title>Stella's Art</title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- font for navigation bar -->
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Responsive Footer Section | CodingNepal</title> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="navmedia.css" /> -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <link
-    href="https://fonts.googleapis.com/css?family=Creepster"
-    rel="stylesheet"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-  />
-
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Tangerine"
-  />
-
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
-    rel="stylesheet"
-  />
-    <!-- css -->
-    <link rel="stylesheet" href="navigationbar.css" />
-    <link rel="stylesheet" href="navflex.css" />
-    <!-- <link rel="stylesheet" href="style.css" /> -->
-    <!-- <link rel="stylesheet" href="mediaquery.css" /> -->
-   
-    <link rel="stylesheet" href="navmedia.css" />
-    <link rel="stylesheet" href="style.css" />
   </head>
-  <body >
-    
+  <body>
     <nav>
       <!-- <div class="logo">Brand</div> -->
       <input type="checkbox" id="click" />
       <label for="click" class="menu-btn">
         <i class="fas fa-bars"></i>
       </label>
-      <ul>
-        <li><a class="active"  href="index.html" target="_blank" rel="noopener noreferrer">Home</a></li>
-        <li><a   href="aboutme.html" target="_blank" rel="noopener noreferrer">About</a></li>
+      <ul id="navleft">
         <li>
-          <a   href="selling.html" target="_blank" rel="noopener noreferrer">Selling</a>
-          
+          <a
+            class="active"
+            href="index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Home</a
+          >
         </li>
-        <li><a href="gallery.html" target="_blank" rel="noopener noreferrer">Gallery</a></li>
-        <li><a href="#">contact</a></li>
-        <a href="mailto:stellakypriotis@y7mail.com"
-        ><img src="./images/email.svg" alt="email"
-      /></a>
+        <li>
+          <a href="aboutme.html" target="_blank" rel="noopener noreferrer"
+            >About</a
+          >
+        </li>
+        <li>
+          <a href="selling.html" target="_blank" rel="noopener noreferrer"
+            >Selling</a
+          >
+        </li>
+        <li>
+          <a href="gallery.html" target="_blank" rel="noopener noreferrer"
+            >Gallery</a
+          >
+        </li>
+        <li>
+          <div class="dropdown" class="active">
+            <button class="dropbtn">
+              Contact
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">0409 987 894 </span></a
+              >
+              <a href="#"
+                ><span class="fas fa-envelope"></span>
+                <span>stellakypriotis@y7mail.com</span></a
+              >
+              <!-- <a href="#">Link 3</a> -->
+            </div>
+          </div>
+          <!-- <a href="#">Contact</a> -->
+        </li>
 
-      <a href="https://www.facebook.com/stella.kypriotis">
-        <img src="./images/fb.svg" alt="fb"
-      /></a>
-
-      <a href="https://instagram.com/stellas_art3?igshid=w1yrte6xetuq"
-        ><img src="./images/instagram.svg" alt="instagram"
-      /></a>
         <!-- <li><a href="#">contact</a></li> -->
+        <!-- <p>Follow :</p> -->
       </ul>
+
+      <!-- follow me on navigation -->
+      <div id="navright">
+        <!-- <div class="navright"> -->
+        <div class="social">
+          <!-- <p>Follow me :</p> -->
+          <!-- <li> -->
+          <a href="https://instagram.com/stellas_art3?igshid=w1yrte6xetuq"
+            ><span class="fab fa-instagram"></span
+          ></a>
+          <!-- </li> -->
+          <!-- <li> -->
+          <a href="https://www.facebook.com/stella.kypriotis"
+            ><span class="fab fa-facebook-f" id="fbook"></span
+          ></a>
+          <!-- </li> -->
+
+          <!-- <a href="#"><span class="fab fa-twitter"></span></a> -->
+
+          <!-- <a href="https://youtube.com/c/codingnepal"
+            ><span class="fab fa-youtube"></span
+          ></a> -->
+        </div>
+        <!-- </div> -->
+      </div>
     </nav>
-    
 
     <div id="banner">
-      <!-- <h1>CAPTIVATED BY NATURE</h1> -->
-      <div class="logo">
-        <img src="./images/stellalogo.jpeg" alt="Stella Logo" />
-      </div>
-
-      <img
-        src="./images/seascapeslandscapes/calmingsunset.jpeg"
-        alt="Calming Sunset"
-      />
-     
-      <div class="about">
-        <p>
-          " I am an Australian artist, based in Sydney NSW. Thank you for
-          viewing my page, and do hope you enjoy learning a bit about me and my
-          artwork."
-        </p>
-      </div>
-    </div>
-    <!-- </div> -->
-    <!-- <div class="jumbotron"></div> -->
-    <!-- <div class="banner"> -->
-      <div class="stellaoutdoor">
-        <img src="./images/stellaoutdoor.jpeg" alt="Stella" />
-      </div>
-      <div class="subHeading">
-      <!-- <div class="container"> -->
-        <!-- <div class="myText"> -->
-          <h2>About Me</h2>
-          <p >
-            My love and passion for Nature has been an inspiration in my
-            paintings. I love painting variety of subjects, especially Australian
-            <span class="highWords">birds</span>,
-            <span class="highWords">seascapes</span>  and
-            <span class="highWords">landscapes</span>. Captivated by light and
-            shadow, with the<span class="highWords"> sun</span> shining on a
-            subject, I love to push my boundaries to try to recreate it in much of
-            my work. I also enjoydoing some abstract work at times for varieties.
-            Althogh my choosen medium is oil paints, I also enjoyusing other
-            painting mediums  'En-Plein-Air' ( French term for painting outdoors)
-            whenever possible.
+        <!-- <h1>CAPTIVATED BY NATURE</h1> -->
+        <div class="logo">
+          <img src="./images/stellalogo.jpeg" alt="Stella Logo" />
+        </div>
+  
+        <img
+          src="./images/seascapeslandscapes/calmingsunset.jpeg"
+          alt="Calming Sunset"
+        />
+  
+        <div class="about">
+          <p>Welcome to my website</p>
+          <p>
+            "I am an Australian artist, based in South West Sydney NSW.<br />
+            I do hope you enjoy learning a bit about me and my artwork."
           </p>
-        <!-- </div> -->
-       
-      <!-- </div> -->
-    </div>
-    <!-- <h2 id="expertise">Some of my paintings</h2> -->
-    <h2>Some of my paintings</h2>
-    
-        <div class="spacer">
-          <div class="cards">
-            <!-- <h2 id="expertise">Some of my paintings</h2> -->
-            <div class="container1" id="wrap">
-     
-             
-              <div class="boxx">
-              
-                <img
-                src="./images/birds/naturesbeauty.jpeg"
-                alt="Nature's beauty $550"
-       
-              
-              />
-               
-               
-              </div>
-          
-              <div class="boxx">
-                <img
-                src="./images/birds/kookobarabybishal.jpeg"
-                alt="Kookobara by Bishal $550"
-             
-             
-              />
-                <!-- <img
+        </div>
+      </div>
+    <!-- <div class="content1">
+      <div class="text">Fully Responsive Footer Section</div>
+      <div class="p">HTML and CSS (Flexbox)</div>
+      <h2>My paintings</h2>
+
+    <div class="spacer">
+      <div class="cards">
+     <h2 id="expertise">Some of my paintings</h2> -->
+<div id="stellaimg">
+    <h2>About Me</h2>
+    <div class="image-example"> <img src="./images/stellaoutdoor.jpeg" alt="Stella stellaoutdoor" /></div>
+    <p>
+        My love and passion for nature has been an inspiration in my paintings.
+        I paint using oils on canvas. I love painting variety of subjects,
+        especially Australian
+        <span class="highWords">birds</span>,
+        <span class="highWords">seascapes</span>,
+        <span class="highWords">landscapes</span> and
+        <span class="highWords">portraits</span>. I also enjoy doing some
+        abstract work at times for variety. I enjoy going Plein-Air, (outdoor)
+        painting whenever possible.
+      </p>
+</div>
+  
+        <div class="container1" id="wrap">
+          <div class="boxx">
+            <img
+              src="./images/birds/naturesbeauty.jpeg"
+              alt="Nature's beauty $550"
+            />
+          </div>
+
+          <div class="boxx">
+            <img
+              src="./images/birds/kookobarabybishal.jpeg"
+              alt="Kookobara by Bishal $550"
+            />
+            <!-- <img
                 src="./images/birds/greenparrot.jpeg"
                 alt="Green Parrot in tree"
           
                
               /> -->
             <!-- <p>Rainforest Nature's beautyatoo $550</p> -->
-            </div>
-            </div>
-        
-           
-               <!-- row 2  -->
-            <div class="container1" id="wrap">
-                <div class="boxx">
-                 
-                    <img
-                        src="./images/birds/seagullinbeach.jpeg"
-                        alt="Seagull in Beach $190"
-                    
-                      />
-                <!-- <p>Seagull in Beach $190</p> -->
-                </div>
-               
-                <div class="boxx">
-                  <img
-                  src="./images/birds/budgiesinlove.jpeg"
-                  alt="Budgies in love $190"
-                
-                 
-                />
-                <!-- <p>Budgies in love $190</p> -->
-                </div>
-              </div>
-              <!-- row 3 -->
-           
-            <div class="container1" id="wrap">
-                <div class="boxx">
-                 
-                    <img
-                  src="./images/seascapeslandscapes/bluemountain4.jpeg"
-                  alt="Blue Mountain $170"
-                
-                />
-                <!-- <p>Blue Mountain $170</p> -->
-                </div>
-                <div class="boxx">
-                    <img src="./images/birds/majesty.jpeg" alt="Majesty $350" />
-                    <!-- <p>Majesty $350</p> -->
-                   
-                </div>
-              
-            
-              </div>
-           
-          
           </div>
         </div>
+
+        <!-- row 2  -->
+        <div class="container1" id="wrap">
+          <div class="boxx">
+            <img
+              src="./images/birds/seagullinbeach.jpeg"
+              alt="Seagull in Beach $190"
+            />
+            <!-- <p>Seagull in Beach $190</p> -->
+          </div>
+
+          <div class="boxx">
+            <img
+              src="./images/birds/budgiesinlove.jpeg"
+              alt="Budgies in love $190"
+            />
+            <!-- <p>Budgies in love $190</p> -->
+          </div>
+        </div>
+        <!-- row 3 -->
+
+        <div class="container1" id="wrap">
+          <div class="boxx">
+            <img
+              src="./images/seascapeslandscapes/bluemountain4.jpeg"
+              alt="Blue Mountain $170"
+            />
+            <!-- <p>Blue Mountain $170</p> -->
+          </div>
+          <div class="boxx">
+            <img src="./images/birds/majesty.jpeg" alt="Majesty $350" />
+            <!-- <p>Majesty $350</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
      
-              <!-- <div class="contact-wrapper"> -->
-           <footer> 
-            <!-- <div class="socialNet"> -->
-              <p>Contact : </p>
-              <a href="mailto:stellakypriotis@y7mail.com"
-              ><img src="./images/email.svg" alt="email"
-            /></a>
-      
-            <a href="https://www.facebook.com/stella.kypriotis">
-              <img src="./images/fb.svg" alt="fb"
-            /></a>
-      
-            <a href="https://instagram.com/stellas_art3?igshid=w1yrte6xetuq"
-              ><img src="./images/instagram.svg" alt="instagram"
-            /></a>
-              
-              </a>
-            <!-- </div> -->
-           </footer>     
-              
-         
-    
+     
+    </div>
+    <div class="test"></div>
+
+    <footer>
+      <div class="main-content1">
+        <div class="center boxfooter">
+          <!-- <div class="left box"> -->
+          <h2>CONTACT ME</h2>
+          <div class="contentfooter">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">Western  Sydney </span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">0409 987 894 </span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">stellakypriotis@y7mail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="left boxfooter">
+          <h2>FOLLOW ME</h2>
+
+          <div class="contentfooter">
+            <div class="social1">
+              <a href="https://instagram.com/stellas_art3?igshid=w1yrte6xetuq"
+                ><span class="fab fa-instagram"></span
+              ></a>
+              <a href="https://www.facebook.com/stella.kypriotis"
+                ><span class="fab fa-facebook-f" id="fbook"></span
+              ></a>
+              <!-- <a href="#"><span class="fab fa-twitter"></span></a> -->
+
+              <!-- <a href="https://youtube.com/c/codingnepal"
+                ><span class="fab fa-youtube"></span
+              ></a> -->
+            </div>
+          </div>
+        </div>
+        <!-- right  -->
+        <!-- <div class="right box"> -->
+        <div class="left boxfooter">
+          <h2>Copyright</h2>
+          <!-- <h2>FOLLOW ME</h2> -->
+          <div class="contentfooter">
+            <div class="social1">
+              Copyright &copy; 2020, Stella Kypriotis - All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-
