@@ -265,6 +265,7 @@ input[type="checkbox"] {
 
 /* footer  */
 footer {
+  margin-top: 8rem;
   bottom: 0px;
   width: 100%;
   background: #111;
