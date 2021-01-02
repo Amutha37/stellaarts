@@ -47,8 +47,8 @@ nav {
   padding: 8px 15px;
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
-  /* background: #1a1a1a; */
+  background: #353232;
+  /* background: #353232; */
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -218,10 +218,12 @@ input[type="checkbox"] {
   font-size: 1.2rem;
   margin-bottom: 3rem;
 }
-/* heading  */
-/* .locallinks:first-child {
-  margin-top: 2rem;
-} */
+
+#stellaimg h2 {
+  margin-top: 5rem;
+
+  color: black;
+}
 #stellaimg,
 #centerlink {
   position: relative;
@@ -240,8 +242,8 @@ input[type="checkbox"] {
 hr.new {
   /* border-top: 1px solid rgb(138, 133, 133); */
   border-top: 1px dotted rgb(138, 133, 133);
-  margin-top: 2rem;
-  margin: 2rem auto;
+  /* margin-top: 1rem; */
+  margin: 0rem auto;
   width: 70%;
 }
 
@@ -256,34 +258,25 @@ hr.new {
   flex-wrap: wrap;
   margin-top: 3rem;
 }
-/* .centerlink:first-child {
-  margin-top: 3rem;
-} */
+
 .locallinks a {
-  /* width: 100%; */
-  border: 0px solid #000;
-  padding: 0.5rem 1rem;
-  background: rgb(101, 219, 198);
-  border-radius: 1rem;
-  color: black;
+  color: rgb(10, 53, 226);
   margin: 1rem 1rem;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
-  outline: none;
+  /* outline: none; */
 }
-/* .ruler hr:first-child {
-  margin-top: 2rem;
-} */
-/* .card .container1 .boxx:nth-child(5) {
-  margin-bottom: 2rem;
-} */
+#land:hover,
+#port:hover {
+  cursor: pointer;
+  color: rgb(37, 186, 14);
+}
 .container1:last-child {
   margin-bottom: 2rem;
 }
 /* image containers */
 .container1 {
-  /* background-color: dodgerblue; */
   display: flex;
   align-items: center;
   min-height: 200px;
@@ -300,57 +293,31 @@ hr.new {
 
   padding: 2rem;
 }
-.boxx p {
+/* .boxx p {
   position: absolute;
-  /* top: 74rem; */
+
   font-size: 0.8rem;
   font-weight: 500;
-  color: black;
-}
+
+} */
 .boxx img {
   width: 100%;
 }
 .boxx p {
   position: relative;
-  /* top: 74rem; */
+  text-align: left;
+  color: black;
   font-size: 1.2rem;
   font-weight: 500;
 }
 div .contactMsg p {
   font-size: 1.2rem;
-  font-family: serif;
+  /* font-family: serif; */
   font-weight: 400;
   color: black;
   margin-bottom: 1rem;
 }
-/* .container1 {
-  display: flex;
-  align-items: center;
-  min-height: 150px;
-  justify-content: space-evenly;
-  margin: 2rem;
 
-  flex-wrap: wrap;
-}
-.boxx {
-  max-width: 100%;
-  max-height: 100%;
-  width: 30rem;
-
-  padding: 1rem;
-
-  transition: transform 0.2s;
-  margin: 1rem;
-}
-.boxx p {
-  position: absolute;
-
-  font-size: 1rem;
-  font-weight: 500;
-}
-.boxx img {
-  width: 100%;
-} */
 /* footer without media  */
 footer h2 {
   color: #fff;
@@ -384,7 +351,7 @@ footer {
   top: -10px;
   height: 2px;
   width: 100%;
-  background: #1a1a1a;
+  background: #353232;
 }
 .boxfooter .contentfooter:after {
   position: absolute;
@@ -406,7 +373,7 @@ footer {
 .left .contentfooter .social1 a span {
   height: 40px;
   width: 40px;
-  background: #1a1a1a;
+  background: #353232;
   line-height: 40px;
   text-align: center;
   font-size: 18px;
@@ -419,7 +386,7 @@ footer {
 
 .center .contentfooter:before .fas {
   font-size: 1.4375rem;
-  background: #1a1a1a;
+  background: #353232;
   height: 45px;
   width: 45px;
   line-height: 45px;
@@ -457,7 +424,7 @@ footer {
     height: 10px;
     width: 10px;
 
-    background: #1a1a1a;
+    background: #353232;
     line-height: 20px;
 
     font-size: 18px;
@@ -481,7 +448,7 @@ footer {
     background: #111;
     height: 100%;
     margin: 0;
-    width: 30%;
+    width: 80%;
     text-align: center;
     display: block;
     transition: all 0.3s ease;
@@ -511,6 +478,10 @@ footer {
 
     color: rgba(31, 216, 176, 0.938);
   }
+  .locallinks a {
+    margin: 1rem 1rem;
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 920px) {
@@ -538,7 +509,7 @@ footer {
   .left .contentfooter .social1 a span {
     height: 40px;
     width: 40px;
-    background: #1a1a1a;
+    background: #353232;
     line-height: 40px;
     text-align: center;
     font-size: 18px;
@@ -714,7 +685,7 @@ footer {
     padding: 4px 10px;
     height: 10px;
     width: 10px;
-    background: #1a1a1a;
+    background: #353232;
 
     line-height: 20px;
 
@@ -752,15 +723,17 @@ footer {
   .boxx p {
     font-size: 1rem;
     position: relative;
-    left: 2rem;
+    /* left: 2rem; */
 
     /* font-family: serif; */
   }
 }
 @media (min-width: 0px) and (max-width: 400px) {
-  nav {
+  /* nav ul {
+    width: 80%;
     margin: 0px;
-  }
+  } */
+
   #banner p:first-child {
     font-size: 1.3rem;
   }
@@ -785,7 +758,7 @@ footer {
 
   .boxx p {
     position: relative;
-    left: 3rem;
+    /* left: 3rem; */
     font-family: serif;
   }
 }
@@ -828,7 +801,7 @@ footer {
     height: 10px;
     width: 10px;
 
-    background: #1a1a1a;
+    background: #353232;
     line-height: 10px;
     /* text-align: center; */
     font-size: 18px;
@@ -881,25 +854,12 @@ footer {
     text-align: center;
   }
   #centerlink a {
-    /* width: 90%; */
     text-align: center;
   }
-  .locallinks a {
-    /* width: 100%; */
-    border: 0px solid #000;
-    padding: 0.5rem 1rem;
-    background: rgb(101, 219, 198);
-    border-radius: 1rem;
-    color: black;
-    margin: 1rem 1rem;
-    font-size: 1rem;
-    font-weight: 400;
-    text-decoration: none;
-    outline: none;
-  }
+
   #banner .logo img {
     width: 45%;
-    height: 4rem;
+    height: 3rem;
     margin-right: 1rem;
   }
   #banner img {
@@ -916,5 +876,17 @@ footer {
   }
   .cards {
     margin-top: 2rem;
+  }
+  .boxx p {
+    font-size: 0.9rem;
+  }
+  #stellaimg h2 {
+    text-align: center;
+  }
+
+  div .contactMsg p {
+    text-align: center;
+    width: 100%;
+    font-size: 0.7rem;
   }
 }
