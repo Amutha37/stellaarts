@@ -59,6 +59,7 @@ nav ul li {
   margin: 0 5px;
   padding-top: 0.5rem;
 }
+
 nav ul li a {
   color: #f2f2f2;
   text-decoration: none;
@@ -69,6 +70,7 @@ nav ul li a {
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
+
 nav ul li a.active {
   color: rgb(10, 10, 10);
   background-color: rgb(84, 228, 197);
@@ -113,6 +115,7 @@ button:hover {
   position: absolute;
   color: #fff;
   background-color: #080808;
+  /* margin-top: 1rem; */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -120,18 +123,15 @@ button:hover {
 
 .dropdown-content a {
   float: none;
-  color: black;
-  padding: 12px 16px;
+  color: rgb(240, 235, 235);
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
 .dropdown-content a:hover {
-  /* color: black; */
-  background-color: rgb(182, 186, 183);
-
-  /* background-color: blue; */
+  background-color: rgb(229, 235, 230);
 }
 
 .dropdown:hover .dropdown-content {
@@ -201,6 +201,7 @@ input[type="checkbox"] {
   margin: 0 auto;
   /* margin-left: 10rem; */
   font-size: 1.2rem;
+  margin-bottom: 3rem;
 }
 
 /* sub Heading for about me  */
@@ -215,7 +216,7 @@ input[type="checkbox"] {
   background-size: cover;
   text-align: center;
   margin-top: 4rem;
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
 }
 #stellaimg img {
@@ -223,10 +224,10 @@ input[type="checkbox"] {
   height: auto;
   margin-bottom: 2rem;
 }
-#stellaimg h2 {
+/* #stellaimg h2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
+} */
 #stellaimg p {
   font-size: 1.2rem;
 }
@@ -273,28 +274,27 @@ input[type="checkbox"] {
 /* footer without media  */
 footer {
   /* position: fixed; */
-
   bottom: 0px;
   width: 100%;
   background: #111;
 }
-.main-content1 {
+.main-footercontent {
   display: flex;
 }
-.main-content1 .boxfooter {
+.main-footercontent .footerbox {
   flex-basis: 50%;
   padding: 10px 20px;
 }
-.boxfooter h2 {
+.footerbox h2 {
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-.boxfooter .contentfooter {
+.footerbox .contentfooter {
   margin: 20px 0 0 0;
   position: relative;
 }
-.boxfooter .contentfooter:before {
+.footerbox .contentfooter:before {
   position: absolute;
   content: "";
   top: -10px;
@@ -302,7 +302,7 @@ footer {
   width: 100%;
   background: #1a1a1a;
 }
-.boxfooter .contentfooter:after {
+.footerbox .contentfooter:after {
   position: absolute;
   content: "";
   height: 2px;
@@ -313,13 +313,13 @@ footer {
 .left .contentfooter p {
   text-align: justify;
 }
-.left .contentfooter .social1 {
+.left .contentfooter .footersocial {
   margin: 20px 0 0 0;
 }
-.left .contentfooter .social1 a {
+.left .contentfooter .footersocial a {
   padding: 0 2px;
 }
-.left .contentfooter .social1 a span {
+.left .contentfooter .footersocial a span {
   height: 40px;
   width: 40px;
   background: #1a1a1a;
@@ -329,34 +329,103 @@ footer {
   border-radius: 5px;
   transition: 0.3s;
 }
-.left .contentfooter .social1 a span:hover {
+.left .contentfooter .footersocial a span:hover {
   background: #f12020;
 }
-
-.center .contentfooter:before .fas {
+.centerfooter .contentfooter .fas {
   font-size: 1.4375rem;
   background: #1a1a1a;
   height: 45px;
   width: 45px;
   line-height: 45px;
-  text-align: center;
+  text-align: centerfooter;
   border-radius: 50%;
   transition: 0.3s;
   cursor: pointer;
 }
-.center .contentfooter .fas:hover {
+.centerfooter .contentfooter .fas:hover {
   background: #f12020;
 }
-/* .center .content .social #fbook:hover {
-  background: #2f7cc5;
-} */
-.center .contentfooter .text {
+.centerfooter .contentfooter .text {
   font-size: 1.0625rem;
   font-weight: 500;
   padding-left: 10px;
 }
-.center .contentfooter .phone {
+.centerfooter .contentfooter .phone {
   margin: 15px 0;
+}
+.right form .text {
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg {
+  margin-top: 10px;
+}
+.right form input,
+.right form .msgForm {
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+  /* color: black; */
+}
+.right form input:focus,
+.right form .msgForm:focus {
+  outline-color: #3498db;
+}
+.right form input {
+  height: 35px;
+  /* color: black; */
+}
+textarea .msgForm input {
+  color: rgb(238, 230, 230);
+}
+.right form .btn {
+  margin-top: 10px;
+}
+.right form .btn button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.right form .btn button:hover {
+  background: #000;
+}
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span {
+  color: #656565;
+}
+.bottom center {
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-footercontent {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-footercontent .footerbox {
+    margin: 5px 0;
+  }
 }
 /* media  */
 @media (max-width: 920px) {
@@ -431,21 +500,32 @@ footer {
     position: relative;
     bottom: 0px;
   }
-  .boxfooter h2 {
+  .main-footercontent {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-footercontent .footerbox {
+    margin: 5px 0;
+  }
+  /* footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .footerbox h2 {
     font-size: 1rem;
   }
-  .main-content1 .boxfooter {
-    /* flex-basis: 50%; */
+  .main-footercontent .footerbox{
+
     padding: 10px 20px;
   }
-  .main-content1 {
+  .main-footercontent {
     font-size: 1rem;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .main-content1 .boxfooter {
-    /* font-size: 1.7rem; */
+  .main-footercontent .boxfooter {
+  
     margin: 5px 0;
   }
   .left .contentfooter .social1 a span {
@@ -457,7 +537,7 @@ footer {
     font-size: 18px;
     border-radius: 5px;
     transition: 0.3s;
-  }
+  } */
 }
 /* media querry for body */
 
@@ -516,8 +596,8 @@ footer {
     font-size: 2rem;
   }
   #stellaimg img {
-    width: 60%;
-    height: auto; /* margin-bottom: 2rem; */
+    width: 30%;
+    height: auto;
   }
 
   .cards {
@@ -535,7 +615,7 @@ footer {
   /* .boxfooter h2 {
     font-size: 1.7rem;
   }
-  .main-content1 .boxfooter {
+  .main-footercontent .boxfooter {
    
     padding: 1rem 3rem;
   } */
@@ -549,10 +629,10 @@ footer {
     border-radius: 5px;
     transition: 0.3s;
   } */
-  /* .main-content1 span {
+  /* .main-footercontent span {
     font-size: 1.5rem;
   } */
-  /* .main-content1 {
+  /* .main-footercontent {
     flex-wrap: wrap;
     flex-direction: column;
   } */
@@ -589,7 +669,7 @@ footer {
     font-size: 2rem;
   }
   #stellaimg img {
-    width: 60%;
+    width: 30%;
     height: auto; /* margin-bottom: 2rem; */
   }
 
@@ -683,7 +763,7 @@ footer {
     font-size: 1.5rem;
   }
   #stellaimg img {
-    width: 60%;
+    width: 30%;
     height: auto;
   }
   #stellaimg p {
