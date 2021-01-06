@@ -40,34 +40,19 @@
           >
         </li>
         <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
-          <!-- <div class="dropdown" class="active">
-            <button class="dropbtn">
-              Contact
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#">
-                <span class="fas fa-phone-alt"></span>
-                <span class="text">0409 987 894 </span></a
-              >
-              <a href="#"
-                ><span class="fas fa-envelope"></span>
-                <span>stellakypriotis@y7mail.com</span></a
-              >
-            </div>
-          </div> -->
+          <a href="#callMe">Contact</a>
         </li>
       </ul>
 
       <!-- follow me on navigation -->
       <div id="navright">
         <div class="social">
+          <a href="https://www.facebook.com/artist.stellastudio"
+            ><span class="fab fa-facebook-f" id="fbook"></span
+          ></a>
+
           <a href="https://instagram.com/stellas_art3?igshid=w1yrte6xetuq"
             ><span class="fab fa-instagram"></span
-          ></a>
-          <a href="https://www.facebook.com/stella.kypriotis"
-            ><span class="fab fa-facebook-f" id="fbook"></span
           ></a>
         </div>
         <!-- </div> -->
@@ -129,14 +114,14 @@
     <div class="container1">
       <div class="boxx" id="round">
         <img src="./images/birds/silvergull.jpeg" alt="Silver-Gull" />
-        <p>Silver-Gull <br />width 30cm<br />$190.00 AUD</p>
+        <p>Silver-Gull <br />30cm x 30cm<br />$190.00 AUD</p>
       </div>
       <div class="boxx">
         <img
           src="./images/birds/fuschiaflorals.jpeg"
           alt="Skoulariki Fuschia"
         />
-        <p>Skoulariki Fuschia <br />27cm X 32cm<br />225.00 AUD</p>
+        <p>Skoulariki Fuschia <br />27cm X 32cm<br />$225.00 AUD</p>
       </div>
       <div class="boxx" id="round">
         <img
@@ -144,8 +129,8 @@
           alt="Budgies in love $190"
         />
         <p>
-          Budgies in love <br />
-          $190 AUD <br />(width 30cm)
+          Budgies in love <br />30cm x 30cm<br />
+          $190.00 AUD
         </p>
       </div>
     </div>
@@ -201,53 +186,65 @@
     </div>
 
     <!-- row 4-->
-
     <!-- contact  -->
-    <footer>
-      <div class="main-content1">
-        <div class="center boxfooter">
-          <!-- <div class="left box"> -->
-          <h2>CONTACT ME</h2>
+    <footer id="callMe">
+      <div class="main-footercontent">
+        <div class="left footerbox">
+          <h2>Follow Stella Kypriotis</h2>
           <div class="contentfooter">
-            <div class="place">
-              <span class="fas fa-map-marker-alt"></span>
-              <span class="text">south West Sydney </span>
-            </div>
-            <!-- <div class="phone">
-              <span class="fas fa-phone-alt"></span>
-              <span class="text">0409 987 894 </span>
-            </div>
-            <div class="email">
-              <span class="fas fa-envelope"></span>
-              <span class="text">stellakypriotis@y7mail.com</span>
-            </div> -->
-          </div>
-        </div>
-        <div class="left boxfooter">
-          <h2>FOLLOW ME</h2>
+            <p>
+              on Facebook and Instagram for the latest updates of current art
+              works.
+            </p>
+            <div class="footersocial">
+              <a href="https://www.facebook.com/artist.stellastudio"
+                ><span class="fab fa-facebook-f" id="fbook"></span
+              ></a>
 
-          <div class="contentfooter">
-            <div class="social1">
               <a href="https://instagram.com/stellas_art3?igshid=w1yrte6xetuq"
                 ><span class="fab fa-instagram"></span
               ></a>
-              <a href="https://www.facebook.com/stella.kypriotis"
-                ><span class="fab fa-facebook-f" id="fbook"></span
-              ></a>
             </div>
           </div>
         </div>
-        <!-- right  -->
-        <!-- <div class="right box"> -->
-        <div class="left boxfooter">
-          <h2>Copyright</h2>
-          <!-- <h2>FOLLOW ME</h2> -->
+
+        <div class="right footerbox">
+          <h2>
+            Should you have any queries, please leave your contacts and I will
+            get back to you.
+          </h2>
           <div class="contentfooter">
-            <div class="social1">
-              Copyright &copy; 2020, Stella Kypriotis - All Rights Reserved
-            </div>
+            <form action="#">
+              <div class="email">
+                <div class="text">Email *</div>
+                <input type="email" name="email" required />
+              </div>
+              <div class="msg">
+                <div class="text">Message *</div>
+
+                <textarea
+                  id=".msgForm"
+                  name="message"
+                  rows="5"
+                  cols="40"
+                  required
+                ></textarea>
+
+                <br />
+                <div class="btn">
+                  <button type="submit">Send</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
+      </div>
+      <div class="bottom">
+        <center>
+          <span class="credit"> Art work by Stella Kypriotis </span>
+
+          <span class="far fa-copyright"></span> 2021 All rights reserved.
+        </center>
       </div>
     </footer>
   </body>
